@@ -13,4 +13,4 @@ Explanation of files:
 * merged_test.css - Copy of cleaning_css.css - later unused due to conflicts with Wordpress' default CSS
 * merged_test.html - Merged copy of original website and modal/pop-up box update, currently works with sandbox Wordpress site
 * merged_test.js - Contains two imports from https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js and http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js, as well as functions that controls the modal pop-up and closing
-* test_website.js - Standalone functions that were added to merged_test.js, controls modal pop-up and closing
+* test_website.js - Standalone functions that were added to merged_test.js, controls modal pop-up and closing`
