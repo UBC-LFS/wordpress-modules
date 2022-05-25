@@ -1,52 +1,37 @@
-<!DOCTYPE html>
-<html>
-<!-- https://stackoverflow.com/questions/10233550/launch-bootstrap-modal-on-page-load is heavily referenced here -->
-<!-- https://stackoverflow.com/questions/16152073/prevent-bootstrap-modal-from-disappearing-when-clicking-outside-or-pressing-esca also referenced-->
+<div class="container">
+    <!-- Trigger the modal with a button -->
+    <!-- button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button -->
 
-<head>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-
-    <div class="container">
-        <!-- Trigger the modal with a button -->
-        <!-- button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">PLEASE READ BEFORE PROCEEDING:</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            The LFS Vehicle Guide must be completed prior to booking any LFS department vehicle.
-                            Have you completed the LFS Vehicle Guide as part of the LFS Mandatory Training?
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="https://lfs-my-2020.sites.olt.ubc.ca/files/2022/05/LFS-Vehicle-Guide-January-19-2021.pdf" type="button" class="btn btn-default" target="_blank" rel="noopener noreferrer"> No, I have not.</a>
-                        <a href="https://training-report.landfood.ubc.ca/" type="button"
-                            class="btn btn-default" target="_blank" rel="noopener noreferrer"> Submit here.</a>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Yes, I have.</button>
-                    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">PLEASE READ BEFORE PROCEEDING:</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        The LFS Vehicle Guide must be completed prior to booking any LFS department vehicle.
+                        Have you completed the LFS Vehicle Guide as part of the LFS Mandatory Training?
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://lfs-my-2020.sites.olt.ubc.ca/files/2022/05/LFS-Vehicle-Guide-January-19-2021.pdf"
+                        type="button" class="btn btn-default" target="_blank" rel="noopener noreferrer"> No, I have
+                        not.</a>
+                    <a href="https://training-report.landfood.ubc.ca/" type="button" class="btn btn-default"
+                        target="_blank" rel="noopener noreferrer"> Submit here.</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Yes, I have.</button>
                 </div>
             </div>
         </div>
-
-        <script src="test_website.js"></script>
-
     </div>
 
-</body>
+    <script src="test_website.js"></script>
 
+</div>
 <ol>
     <li><strong>LFS vehicle rentals are available for Faculty of LFS and Forestry users only.</strong></li>
     <li><strong style="font-size: revert;">Review the <a
@@ -85,15 +70,13 @@
 <p>UBC parking has marked our parking spots for departmental vehicles as follows: Stalls <strong>R274</strong>,
     <strong>R275</strong> and <strong>R276</strong> (the Dodge Caravan, Ford Ranger and Prius can be parked in any of
     these stalls). Stall <strong>R273</strong> is reserved for the Dean's use only. As usual, all other stalls in the
-    area have been assigned for other purposes, and our vehicles will be towed if parked in any other spaces.
-</p>
+    area have been assigned for other purposes, and our vehicles will be towed if parked in any other spaces.</p>
 <p>What if an unauthorized user is parked in the LFS departmental spots?</p>
 <ol>
     <li>Record the license plate (preferably take a photo), make and model of the unauthorized vehicle as well as the
         specific parking spot (i.e. R273, R274, R275 or R276).&nbsp; Email this information to
         <a>lewis.fausak@ubc.ca</a>&nbsp;and cc <a>andy.jeffries@ubc.ca</a>&nbsp;along with the vehicle that you are
-        driving (i.e. Prius, Caravan, or Ranger).
-    </li>
+        driving (i.e. Prius, Caravan, or Ranger).</li>
     <li>If there are no departmental spots remaining (i.e. R273, R274, R275 and R276 are all occupied), park the
         departmental vehicle in surface lot B4.&nbsp; This is the lot across from Forestry with access off Agronomy
         Road.</li>
@@ -105,14 +88,12 @@
     <li>Notify Lewis Fausak and Andy Jeffries (email to <a>lewis.fausak@ubc.ca</a>&nbsp;and cc
         <a>andy.jeffries@ubc.ca</a>) of the location and make of the vehicle (i.e. Prius, Caravan, or Ranger). Lewis or
         Andy will notify UBC Parking of the unauthorized user and will move the departmental vehicle once the
-        unauthorized vehicle has been removed.
-    </li>
+        unauthorized vehicle has been removed.</li>
 </ol>
 <p>[/accordion]</p>
 <p>[accordion title="Fueling Up"]</p>
 <p>To avoid any inconvenience, please fill up the gas tank prior to going out into the fields for research and
-    <strong>return the vehicle with at least a half tank of fuel</strong>.
-</p>
+    <strong>return the vehicle with at least a half tank of fuel</strong>.</p>
 <p><strong>Option 1: Fueling Up on Campus&nbsp;</strong></p>
 <ol>
     <li>The campus fuel pump is located in front of the University Services Building.</li>
@@ -294,4 +275,3 @@
     </tbody>
 </table>
 <p>[/accordion]</p>
-</html>
